@@ -1,3 +1,5 @@
+html{scroll-behavior:smooth}
+
 .header-glass {
     background-image: url("../images/glassmuseum.jpeg");
     background-size: cover;
@@ -26,7 +28,7 @@ header .header-glass-inner h1{
     vertical-align: middle; */
 }
 
-.about {
+#about {
     background-color: #343A40;
     height:100vh;
     display: flex;
@@ -35,10 +37,16 @@ header .header-glass-inner h1{
     vertical-align: middle;
     align-items: center;
     justify-content: center;
+    color: #fff;
 }
 
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+#biopic {
+    max-width: 100%;
+    max-height: 20vw;
 }
