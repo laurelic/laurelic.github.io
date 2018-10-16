@@ -1,6 +1,7 @@
 .header-glass {
     background-image: url("../images/glassmuseum.jpeg");
     background-size: cover;
+    height:100vh;
     min-height: auto;
     text-align: center;
     color: #fff;
@@ -19,4 +20,10 @@ header .header-glass-inner h1{
     background-color: #343A40;
     padding: 50px;
     text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
