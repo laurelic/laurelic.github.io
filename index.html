@@ -5,6 +5,13 @@
   <title>Lauren Creatura - Portfolio</title>
       <!--Link Bootswatch stylesheet-->
       <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    
+      <!--Link to animation style-->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <!--Link to custom css style sheet-->
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -46,7 +53,52 @@
       </div>
     </div>
   </section>
-  
+  <section id="projects">
+      <div class="anchor">
+          <a name="target">&nbsp;</a>
+        </div>
+    <div class="container">
+      <div class="card-columns">
+        <!-- <div class="col-sm-6 col-lg3 py-2"> -->
+            <div data-aos="zoom-in">
+                <div class="card mb-3">
+                  <h4 class="card-header">Yelp! I Got Food Poisoning!</h4>
+                  <div class="card-body">
+                    <h5 class="card-title">Data Munging, Visualizaiton, and Analysis</h5>
+                    <h6 class="card-subtitle text-muted">Python, Pandas, Google Map API, Statistics, Matplotlib</h6>
+                  </div>
+                  <img class="card-img-top" src="assets/images/matheus-frade-769760-unsplash.jpg" alt="Card image">
+                  <div class="card-body">
+                    <p class="card-text">Research into relationship between Health Score and Yelp Reviews.</p>
+                  </div>
+                </div>
+              </div>
+      </div>
+        <!-- </div> -->
+        <!-- <div class="col-sm-6 col-lg3 py-2"> -->
+      <div class="card-columns">
+          <div data-aos="zoom-in">
+            <div class="card mb-3">
+              <h4 class="card-header">Earthquake Leaflet</h4>
+              <div class="card-body">
+                <h5 class="card-title">Data Visualization Demo</h5>
+                <h6 class="card-subtitle text-muted">Leaflet.js, JavaScript, HTML, CSS</h6>
+              </div>
+              <img class="card-img-top" src="assets/images/daniil-silantev-1006206-unsplash.jpg" alt="Card image">
+              <div class="card-body">
+                <p class="card-text">Map of all earthquakes ocurring the past seven days based on live updates from US Geological Survey. Fault lines are also illustrated to explore corellation between tectonic plates and seismic activity.</p>
+              </div>
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
