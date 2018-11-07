@@ -40,6 +40,7 @@ header .header-glass-inner h1{
     color: #fff;
 }
 
+
 .navbar {
     position: fixed;
     top: 0;
@@ -52,7 +53,12 @@ header .header-glass-inner h1{
 }
 
 #projects {
-    height: calc(100vh - 100px)
+    height: calc(100vh - 50px);
+}
+
+#projects h1 {
+  padding: 3%;
+  text-align: center;
 }
 
 .anchor a {

@@ -7,7 +7,7 @@
       <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
 
       <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
     
       <!--Link to animation style-->
@@ -29,7 +29,7 @@
           <a class="nav-link" href="index.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="data.html">Projects</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="comparison.html">Contact</a>
@@ -51,48 +51,41 @@
         <p class="lead">Data Analyst of four years following a lifetime of art and humanities. Adept abstract thinker, creative problem solver, and academic writer with proficienies in Python, SQL, VBA, Excel, JavaScript, and MongoDB thanks to education in both technical and liberal arts. As a person with an artistic background, I am very drawn to the storytelling element of this discipline. Working in the wholesale fashion industry, I invariably present findings to non-technical audiences, and I find storytelling empowers me to do so.</p>
         <p class="lead">Currently, I am attending the USC Viterbi School of Engineering Analytics Bootcamp, expecting to graduate in December 2018. Though self-taught in VBA, HTML, CSS, JavaScript, and Python, my skillset expanded expontentially on being surrounded by other analyts for the first time.</p>
       </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="#projects"><button type="button" class="btn btn-outline-secondary">Projects</button></a>
+        </div>
+      </div>
     </div>
+    
   </section>
   <section id="projects">
       <div class="anchor">
           <a name="target">&nbsp;</a>
         </div>
-    <div class="container">
-      <div class="card-columns">
-        <!-- <div class="col-sm-6 col-lg3 py-2"> -->
-            <div data-aos="zoom-in">
-                <div class="card mb-3">
-                  <h4 class="card-header">Yelp! I Got Food Poisoning!</h4>
-                  <div class="card-body">
-                    <h5 class="card-title">Data Munging, Visualizaiton, and Analysis</h5>
-                    <h6 class="card-subtitle text-muted">Python, Pandas, Google Map API, Statistics, Matplotlib</h6>
-                  </div>
-                  <img class="card-img-top" src="assets/images/matheus-frade-769760-unsplash.jpg" alt="Card image">
-                  <div class="card-body">
-                    <p class="card-text">Research into relationship between Health Score and Yelp Reviews.</p>
-                  </div>
-                </div>
-              </div>
-      </div>
-        <!-- </div> -->
-        <!-- <div class="col-sm-6 col-lg3 py-2"> -->
-      <div class="card-columns">
-          <div data-aos="zoom-in">
-            <div class="card mb-3">
-              <h4 class="card-header">Earthquake Leaflet</h4>
-              <div class="card-body">
-                <h5 class="card-title">Data Visualization Demo</h5>
-                <h6 class="card-subtitle text-muted">Leaflet.js, JavaScript, HTML, CSS</h6>
-              </div>
-              <img class="card-img-top" src="assets/images/daniil-silantev-1006206-unsplash.jpg" alt="Card image">
-              <div class="card-body">
-                <p class="card-text">Map of all earthquakes ocurring the past seven days based on live updates from US Geological Survey. Fault lines are also illustrated to explore corellation between tectonic plates and seismic activity.</p>
-              </div>
+      <h1>Projects</h1>
+      <div data-aos="zoom-in">
+        <div class="card-deck">
+          <div class="card mb-3">
+            <h4 class="card-header">Yelp! I Got Food Poisoning!</h4>
+            <img class="card-img-top" src="assets/images/matheus-frade-769760-unsplash.jpg" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">Data Munging, Visualizaiton, and Analysis</h5>
+              <h6 class="card-subtitle text-muted">Python, Pandas, Google Map API, Yelp API, Statistics, Matplotlib</h6> 
+              <p class="card-text">Research into relationship between Health Score and Yelp Reviews.</p>
             </div>
-          <!-- </div> -->
+          </div>
+          <div class="card mb-3">
+            <h4 class="card-header">Earthquake Leaflet</h4>
+            <img class="card-img-top" src="assets/images/daniil-silantev-1006206-unsplash.jpg" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">Data Visualization Demo</h5>
+              <h6 class="card-subtitle text-muted">Leaflet.js, JavaScript, HTML, CSS</h6>
+              <p class="card-text">Map of all earthquakes ocurring the past seven days based on live updates from US Geological Survey. Fault lines are also illustrated to explore corellation between tectonic plates and seismic activity.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
   </section>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
