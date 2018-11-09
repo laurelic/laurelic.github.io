@@ -21,11 +21,6 @@ header .header-glass-inner h1{
     color: #fff;
     margin: 0;
     text-shadow: 2px 2px 10px black;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align:center;
-    vertical-align: middle; */
 }
 
 #about {
@@ -70,16 +65,6 @@ header .header-glass-inner h1{
   padding-top: 100px;
 }
 
-.anchor a {
-    position: absolute;
-    left: 0px;
-    top: -10px;
-  }
-
-.anchor {
-    position: relative;
-}
-
 hr.project-style {
     border-top: 1px solid #343A40;
     width: 3%;
@@ -95,4 +80,8 @@ hr.project-style {
 
 .card {
   height: 100%;
+}
+
+.top-buffer {
+    margin-top: 3%;
 }
