@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
     <a class="navbar-brand" href="#">Lauren Creatura</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@
         <p class="lead">Data Analyst of four years following a lifetime of art and humanities. Adept abstract thinker, creative problem solver, and academic writer with proficienies in Python, SQL, VBA, Excel, JavaScript, and MongoDB thanks to education in both technical and liberal arts. As a person with an artistic background, I am very drawn to the storytelling element of this discipline. Working in the wholesale fashion industry, I invariably present findings to non-technical audiences, and I find storytelling empowers me to do so.</p>
         <p class="lead">Currently, I am attending the USC Viterbi School of Engineering Analytics Bootcamp, expecting to graduate in December 2018. Though self-taught in VBA, HTML, CSS, JavaScript, and Python, my skillset expanded expontentially on being surrounded by other analyts for the first time.</p>
       </div>
-      <div class="row">
+      <div class="row" style="margin-top: 50px">
         <div class="col-12 text-center">
           <a href="#projects"><button type="button" class="btn btn-outline-secondary">Projects</button></a>
         </div>
@@ -59,59 +59,68 @@
     </div>
     
   </section>
-  <section id="projects">
-      <div class="anchor">
-          <a name="target">&nbsp;</a>
-        </div>
-      <h1>Projects</h1>
-      <div data-aos="zoom-in">
-        <div class="card-deck">
-          <div class="card mb-3">
-            <h4 class="card-header">Yelp! I Got Food Poisoning!</h4>
-            <img class="card-img-top" src="assets/images/matheus-frade-769760-unsplash.jpg" alt="Welp...">
-            <div class="card-body">
-              <h5 class="card-title">Data Munging, Visualizaiton, and Analysis</h5>
-              <h6 class="card-subtitle text-muted">Python, Pandas, Google Map API, Yelp API, Statistics, Matplotlib</h6> 
-              <p class="card-text">Research into relationship between Health Score and Yelp Reviews.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h4 class="card-header">Earthquake Leaflet</h4>
-            <a href="https://laurelic.github.io/leaflet-of-earthquakes/">
-              <img class="card-img-top" src="assets/images/daniil-silantev-1006206-unsplash.jpg" alt="Shake it off">
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">Data Visualization Demo</h5>
-              <h6 class="card-subtitle text-muted">Leaflet.js, JavaScript, HTML, CSS</h6>
-              <p class="card-text">Map of all earthquakes ocurring the past seven days based on live updates from US Geological Survey. Fault lines are also illustrated to explore corellation between tectonic plates and seismic activity.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <h4 class="card-header">Risk Factor Surveillance</h4>
-            <a href="https://laurelic.github.io/d3-data-risk-factor-surveillance/">
-              <img class="card-img-top" src="assets/images/rawpixel-593598-unsplash.jpg" alt="Risky health">
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">Data Visualization Demo</h5>
-              <h6 class="card-subtitle text-muted">D3.js, JavaScript, HTML, CSS</h6>
-              <p class="card-text">A data set from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System was provided to explore any trends between a number of health/risk indicators: access to healthcare, smoking, obesity, age, poverty rate by state.</p>
-            </div>
+  <section class="no-padding" id="projects">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <h1>Projects</h1>
           </div>
         </div>
       </div>
-      <hr>
-      <div data-aos="zoom-in">
-        <div class="card-deck">
-          <div class="card mb-3">
-            <h4 class="card-header">News Mood</h4>
-            <a href="#">
-              <img class="card-img-top" src="assets/images/branden-harvey-362111-unsplash.jpg" alt="good news">
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">Social Analystics Demo</h5>
-              <h6 class="card-subtitle text-muted">Python, Twitter API via tweepy, Pandas, Matplotlib, VADER sentiment analysis</h6>
-              <p class="card-text">Calls for the 100 most recent tweet from several news sources and performs sentiment analysis upon each of them in order to gauge the mood of the news at the moment. Each tweet is visualized individually in addition to a normalized score for each news source.</p>
-            </div>
+      <hr class="project-style">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <div class="card mb-3">
+                <h4 class="card-header">Yelp! I Got Food Poisoning!</h4>
+                <img class="card-img-top" src="assets/images/matheus-frade-769760-unsplash.jpg" alt="Welp...">
+                <div class="card-body">
+                  <h5 class="card-title">Data Munging, Visualizaiton, and Analysis</h5>
+                  <h6 class="card-subtitle text-muted">Python, Pandas, Google Map API, Yelp API, Statistics, Matplotlib</h6> 
+                  <p class="card-text">Research into relationship between Health Score and Yelp Reviews.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card mb-3">
+                <h4 class="card-header">Earthquake Leaflet</h4>
+                <a href="https://laurelic.github.io/leaflet-of-earthquakes/">
+                  <img class="card-img-top" src="assets/images/daniil-silantev-1006206-unsplash.jpg" alt="Shake it off">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Data Visualization Demo</h5>
+                  <h6 class="card-subtitle text-muted">Leaflet.js, JavaScript, HTML, CSS</h6>
+                  <p class="card-text">Map of all earthquakes ocurring the past seven days based on live updates from US Geological Survey. Fault lines are also illustrated to explore corellation between tectonic plates and seismic activity.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card mb-3">
+                <h4 class="card-header">Risk Factor Surveillance</h4>
+                <a href="https://laurelic.github.io/d3-data-risk-factor-surveillance/">
+                  <img class="card-img-top" src="assets/images/rawpixel-593598-unsplash.jpg" alt="Risky health">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Data Visualization Demo</h5>
+                  <h6 class="card-subtitle text-muted">D3.js, JavaScript, HTML, CSS</h6>
+                  <p class="card-text">A data set from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System was provided to explore any trends between a number of health/risk indicators: access to healthcare, smoking, obesity, age, poverty rate by state.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+              <div class="card mb-3">
+                  <h4 class="card-header">News Mood</h4>
+                  <a href="#">
+                    <img class="card-img-top" src="assets/images/branden-harvey-362111-unsplash.jpg" alt="good news">
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Social Analystics Demo</h5>
+                    <h6 class="card-subtitle text-muted">Python, Twitter API via tweepy, Pandas, Matplotlib, VADER sentiment analysis</h6>
+                    <p class="card-text">Calls for the 100 most recent tweet from several news sources and performs sentiment analysis upon each of them in order to gauge the mood of the news at the moment. Each tweet is visualized individually in addition to a normalized score for each news source.</p>
+                  </div>
+                </div>
           </div>
         </div>
       </div>

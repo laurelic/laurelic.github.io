@@ -53,12 +53,21 @@ header .header-glass-inner h1{
 }
 
 #projects {
-    height: calc(100vh - 50px);
+    margin-top: 15%;
+
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
 }
 
 #projects h1 {
-  padding: 3%;
   text-align: center;
+  padding-top: 100px;
 }
 
 .anchor a {
@@ -71,10 +80,10 @@ header .header-glass-inner h1{
     position: relative;
 }
 
-.card-deck{
-    height: 25vh;
-    margin-top:1%;
-    margin-bottom:1%;
+hr.project-style {
+    border-top: 1px solid #343A40;
+    width: 3%;
+    margin-bottom: 2%;
 }
 
 .card-img-top {
@@ -84,28 +93,6 @@ header .header-glass-inner h1{
     image-orientation: from-image;
 }
 
-/* @media (min-width: 0) {
-    .card-deck .card {
-      flex: 0 0 calc(100% - 30px);
-    }
-  }
-  @media (min-width: 576px) {
-    .card-deck .card {
-      flex: 0 0 calc(50% - 30px);
-    }
-  }
-  @media (min-width: 768px) {
-    .card-deck .card {
-      flex: 0 0 calc(33.33333% - 30px);
-    }
-  }
-  @media (min-width: 992px) {
-    .card-deck .card {
-      flex: 0 0 calc(25% - 30px);
-    }
-  }
-  @media (min-width: 1200px) {
-    .card-deck .card {
-      flex: 0 0 calc(20% - 30px);
-    }
-  } */
+.card {
+  height: 100%;
+}
