@@ -5,10 +5,6 @@
   <title>Lauren Creatura - Portfolio</title>
       <!--Link Bootswatch stylesheet-->
       <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
-
-      <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-
     
       <!--Link to animation style-->
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -18,7 +14,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-    <a class="navbar-brand" href="#">Lauren Creatura</a>
+    <a class="navbar-brand" href="#home">Lauren Creatura</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -26,18 +22,18 @@
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="comparison.html">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
-  <header class="header-glass">
+  <header class="header-glass" id="home">
     <div class="header-glass-inner">
       <h1>Portfolio</h1>
       <hr>
@@ -46,7 +42,9 @@
   </header>
   <section id="about">
     <div class="container">
-      <img src="assets/images/bio.jpeg" id="biopic" style="margin: auto">
+      <div data-aos="zoom-in">
+        <img src="assets/images/bio.jpeg" id="biopic" style="margin: auto">
+      </div>
       <div class="row" style="margin-top: 50px">
         <p class="lead">Data Analyst of four years following a lifetime of art and humanities. Adept abstract thinker, creative problem solver, and academic writer with proficienies in Python, SQL, VBA, Excel, JavaScript, and MongoDB thanks to education in both technical and liberal arts. As a person with an artistic background, I am very drawn to the storytelling element of this discipline. Working in the wholesale fashion industry, I invariably present findings to non-technical audiences, and I find storytelling empowers me to do so.</p>
         <p class="lead">Currently, I am attending the USC Viterbi School of Engineering Analytics Bootcamp, expecting to graduate in December 2018. Though self-taught in VBA, HTML, CSS, JavaScript, and Python, my skillset expanded expontentially on being surrounded by other analyts for the first time.</p>
@@ -175,7 +173,41 @@
         </div>
       </div>
   </section>
+  <section id="contact" class="top-buffer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Contact</h2>
+          <hr class="project-style">
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-2 offset-md-3 text-center">
+          <div data-aos="fade-up">
+            <a href="https://github.com/laurelic">
+              <img src="assets/images/iconmonstr-github-1-64.png" alt="github">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2 text-center">
+          <div data-aos="fade-up">
+            <a href="https://www.linkedin.com/in/lauren-creatura-69a91287/">
+              <img src="assets/images/iconmonstr-linkedin-1-64.png" alt="linkedin">
+            </a>
+        </div>
+        </div>
+        <div class="col-md-2 text-center">
+          <div data-aos="fade-up">
+          <a href="mailto:lecreatura@gmail.com">
+            <img src="assets/images/iconmonstr-email-2-64.png" alt="email">
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
+  </div>
+</section>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();

@@ -40,6 +40,7 @@ header .header-glass-inner h1{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 85;
 }
 
 #biopic {
@@ -49,7 +50,6 @@ header .header-glass-inner h1{
 
 #projects {
     margin-top: 15%;
-
 }
 
 .no-padding {
@@ -84,4 +84,8 @@ hr.project-style {
 
 .top-buffer {
     margin-top: 3%;
+}
+
+#contact {
+    height: 20vh;
 }
